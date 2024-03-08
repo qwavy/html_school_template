@@ -18,11 +18,11 @@ body{
   font-family: "Roboto";
   width: 30%;
 }
-.content-creativity-info h1 {
+.content-creativity-info h2 {
   color: #00cb9c;
   font-size: 80px;
 }
-.content-creativity-info h2 {
+.content-creativity-info h3 {
   font-size: 66px;
   color: #b6e01b;
 }
@@ -118,16 +118,16 @@ body{
 .content-middle-school-info{
   width: 50%;
 }
-.content-middle-school-info h1{
+.content-middle-school-info h2{
   font-size: 60px;
 
 }
-.content-middle-school-info h4{
+.content-middle-school-info h3{
   font-size: 35px;
   min-width: 300px;
   width: 50%;
 }
-.content-middle-school-info h6{
+.content-middle-school-info h4{
   font-size: 20px;
   min-width: 300px;
   width: 50%;
@@ -206,9 +206,14 @@ body{
 footer{
   height: 600px;
   background-color: #08294D;
+
+}
+.footer-logo-block{
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
+  
 }
 .footer-logo{
   width: 346px;
@@ -219,6 +224,14 @@ footer{
 
 
 @media (max-width:1024px) {
+
+  .site{
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+  }
 
   .content-creativity {
     display: flex;
@@ -242,7 +255,7 @@ footer{
   }
 
   .content-community{
-    width: 100%;
+    width: 50%;
   }
   .content-community p{
     width: 50%;
